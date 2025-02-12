@@ -28,8 +28,8 @@ public class Tareas07 {
         private String value;
         private String placeholder;
 
-        public InputAttributes(String id, HtmlType type, String value, String placeholder) {
-            super(id, type);
+        public InputAttributes(String id, String value, String placeholder) {
+            super(id, HtmlType.INPUT);
             this.value = value;
             this.placeholder = placeholder;
         }
@@ -53,8 +53,8 @@ public class Tareas07 {
 
     class InputEvents extends InputAttributes {
 
-        public InputEvents(String id, HtmlType type, String value, String placeholder) {
-            super(id, type, value, placeholder);
+        public InputEvents(String id, String value, String placeholder) {
+            super(id, value, placeholder);
         }
 
         public void setFocus() {
