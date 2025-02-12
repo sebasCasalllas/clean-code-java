@@ -1,12 +1,11 @@
 package org.example.cleanCode;
 
 public class Tareas07 {
-    // Definición del tipo de elemento HTML como un Enum
+
     enum HtmlType {
         INPUT, SELECT, TEXTAREA, RADIO
     }
 
-    // Clase base que representa un elemento HTML genérico
     class HtmlElement {
         private String id;
         private HtmlType type;
@@ -16,7 +15,6 @@ public class Tareas07 {
             this.type = type;
         }
 
-        // Getters
         public String getId() {
             return id;
         }
@@ -26,7 +24,6 @@ public class Tareas07 {
         }
     }
 
-    // Clase que almacena atributos específicos de un input
     class InputAttributes {
         private String value;
         private String placeholder;
@@ -36,7 +33,6 @@ public class Tareas07 {
             this.placeholder = placeholder;
         }
 
-        // Getters y Setters
         public String getValue() {
             return value;
         }
@@ -54,7 +50,6 @@ public class Tareas07 {
         }
     }
 
-    // Clase que maneja eventos y usa composición en lugar de herencia
     class InputEvents {
         private HtmlElement htmlElement;
         private InputAttributes inputAttributes;
@@ -64,7 +59,6 @@ public class Tareas07 {
             this.inputAttributes = new InputAttributes(value, placeholder);
         }
 
-        // Métodos de eventos
         public void setFocus() {
             System.out.println("Input " + htmlElement.getId() + " is now focused.");
         }
@@ -82,7 +76,6 @@ public class Tareas07 {
             System.out.println("Value removed from input " + htmlElement.getId());
         }
 
-        // Método para imprimir el estado actual
         @Override
         public String toString() {
             return "InputEvents{" +
@@ -94,7 +87,6 @@ public class Tareas07 {
         }
     }
 
-    // Clase principal para probar el código
     public class Main {
         public static void main(String[] args) {
             InputEvents nameField = new InputEvents("Fernando", "Enter first name", "txtName");
