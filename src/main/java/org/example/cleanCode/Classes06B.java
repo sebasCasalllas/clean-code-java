@@ -2,14 +2,13 @@ package org.example.cleanCode;
 
 import java.util.Date;
 
+/*************** EN JAVA NO APLICA LOS CAMBIOS DE LA CLASE B**************/
 
-/*************** NO APLICA **************/
-public class Classes06A {
+public class Classes06B {
 
     public enum Gender {
         M, F
     }
-
     public static class Person {
         public String name;
         public Gender gender;
