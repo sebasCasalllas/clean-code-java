@@ -24,11 +24,12 @@ public class Tareas07 {
         }
     }
 
-    class InputAttributes {
+    class InputAttributes extends HtmlElement{
         private String value;
         private String placeholder;
 
-        public InputAttributes(String value, String placeholder) {
+        public InputAttributes(String id, HtmlType type, String value, String placeholder) {
+            super(id, type);
             this.value = value;
             this.placeholder = placeholder;
         }
@@ -50,21 +51,18 @@ public class Tareas07 {
         }
     }
 
-    class InputEvents {
-        private HtmlElement htmlElement;
-        private InputAttributes inputAttributes;
+    class InputEvents extends InputAttributes {
 
-        public InputEvents(String value, String placeholder, String id) {
-            this.htmlElement = new HtmlElement(id, HtmlType.INPUT);
-            this.inputAttributes = new InputAttributes(value, placeholder);
+        public InputEvents(String id, HtmlType type, String value, String placeholder) {
+            super(id, type, value, placeholder);
         }
 
         public void setFocus() {
-            System.out.println("Input " + htmlElement.getId() + " is now focused.");
+            System.out.println("Input");
         }
 
         public String getValue() {
-            return inputAttributes.getValue();
+            return "";
         }
 
         public boolean isActive() {
@@ -72,18 +70,7 @@ public class Tareas07 {
         }
 
         public void removeValue() {
-            inputAttributes.setValue("");
-            System.out.println("Value removed from input " + htmlElement.getId());
-        }
-
-        @Override
-        public String toString() {
-            return "InputEvents{" +
-                    "id='" + htmlElement.getId() + '\'' +
-                    ", type=" + htmlElement.getType() +
-                    ", value='" + inputAttributes.getValue() + '\'' +
-                    ", placeholder='" + inputAttributes.getPlaceholder() + '\'' +
-                    '}';
+            System.out.println("Value removed from input " );
         }
     }
 
