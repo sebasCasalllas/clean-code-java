@@ -9,6 +9,6 @@ import lombok.*;
 @Getter
 public class HtmlElement {
 
-    public String id;
-    public HtmlType htmlType;
+    private String id;
+    private HtmlType htmlType;
 }

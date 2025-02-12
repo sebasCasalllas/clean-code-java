@@ -1,12 +1,16 @@
 package org.example.clean.rectareas07;
 
+import lombok.Getter;
+import lombok.Setter;
 import lombok.ToString;
 
 @ToString
+@Getter
+@Setter
 public class InputEvents {
 
-    public HtmlElement htmlElement;
-    public InputAttributes inputAttributes;
+    private HtmlElement htmlElement;
+    private InputAttributes inputAttributes;
 
     public InputEvents(String value, String placeholder, String id) {
         this.htmlElement = new HtmlElement(id, HtmlType.INPUT);

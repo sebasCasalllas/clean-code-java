@@ -9,6 +9,6 @@ import lombok.*;
 @Getter
 public class InputAttributes {
 
-    public String value;
-    public String placeholder;
+    private String value;
+    private String placeholder;
 }
