@@ -1,4 +1,4 @@
-package org.example.cleanCode;
+package org.example.clean;
 
 import java.util.List;
 import java.util.Map;

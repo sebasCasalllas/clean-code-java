@@ -1,4 +1,4 @@
-package org.example.cleanCode;
+package org.example.clean;
 
 public class Tareas07 {
 
