@@ -6,55 +6,34 @@ public class Tareas07 {
         INPUT, SELECT, TEXTAREA, RADIO
     }
 
-    class HtmlElement {
-        private String id;
-        private HtmlType type;
+    static class HtmlElement {
+        public String id;
+        public HtmlType type;
 
         public HtmlElement(String id, HtmlType type) {
             this.id = id;
             this.type = type;
         }
-
-        public String getId() {
-            return id;
-        }
-
-        public HtmlType getType() {
-            return type;
-        }
     }
 
-    class InputAttributes extends HtmlElement{
-        private String value;
-        private String placeholder;
+    static class InputAttributes {
+        public String value;
+        public String placeholder;
 
-        public InputAttributes(String id, String value, String placeholder) {
-            super(id, HtmlType.INPUT);
+        public InputAttributes(String value, String placeholder) {
             this.value = value;
-            this.placeholder = placeholder;
-        }
-
-        public String getValue() {
-            return value;
-        }
-
-        public void setValue(String value) {
-            this.value = value;
-        }
-
-        public String getPlaceholder() {
-            return placeholder;
-        }
-
-        public void setPlaceholder(String placeholder) {
             this.placeholder = placeholder;
         }
     }
 
-    class InputEvents extends InputAttributes {
+    static class InputEvents {
 
-        public InputEvents(String id, String value, String placeholder) {
-            super(id, value, placeholder);
+        public HtmlElement htmlElement;
+        public InputAttributes inputAttributes;
+
+        public InputEvents(String value, String placeholder, String id) {
+            this.htmlElement = new HtmlElement(id, HtmlType.INPUT);
+            this.inputAttributes = new InputAttributes(value, placeholder);
         }
 
         public void setFocus() {
@@ -74,14 +53,12 @@ public class Tareas07 {
         }
     }
 
-    public class Main {
-        public static void main(String[] args) {
-            InputEvents nameField = new InputEvents("Fernando", "Enter first name", "txtName");
+    public static void main(String[] args) {
+        InputEvents nameField = new InputEvents("Fernando", "Enter first name", "txtName");
 
-            System.out.println(nameField);
-            nameField.setFocus();
-            nameField.removeValue();
-            System.out.println("Value after removal: " + nameField.getValue());
-        }
+        System.out.println(nameField);
+        nameField.setFocus();
+        nameField.removeValue();
+        System.out.println("Value after removal: " + nameField.getValue());
     }
 }
