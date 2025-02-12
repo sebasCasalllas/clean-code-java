@@ -3,7 +3,10 @@ package org.example.cleanCode;
 import java.util.Date;
 
 
-/*************** NO APLICA **************/
+/***************
+ * NO APLICA EL
+ * PRINCIPIO DE RESPONSABILIDAD UNICA
+ * **************/
 public class Classes06A {
 
     public enum Gender {
