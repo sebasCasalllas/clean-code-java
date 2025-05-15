@@ -1,0 +1,14 @@
+
+f
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾
+m
+java:S1104"RMake gender a static final constant or non-public and provide accessors if needed.(¬­Éûÿÿÿÿ
+k
+java:S1104"UMake birthdate a static final constant or non-public and provide accessors if needed.( ãâğ
+l
+java:S1104"VMake lastAccess a static final constant or non-public and provide accessors if needed.(îËô¥
+w
+java:S1104*"\Make workingDirectory a static final constant or non-public and provide accessors if needed.(»ÀÇÜıÿÿÿÿ
+p
+java:S1104+"ZMake lastOpenFolder a static final constant or non-public and provide accessors if needed.(ÃÈçÈ
+@	java:S106M"+Replace this use of System.out by a logger.(…ıĞâ

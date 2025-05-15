@@ -1,0 +1,24 @@
+
+m
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾8ûÉÁŞÏ2
+t
+java:S1104"RMake gender a static final constant or non-public and provide accessors if needed.(¬­Éûÿÿÿÿ8ûÉÁŞÏ2
+r
+java:S1104"UMake birthdate a static final constant or non-public and provide accessors if needed.( ãâğ8ûÉÁŞÏ2
+s
+java:S1104("QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëıÿÿÿÿ8ûÉÁŞÏ2
+s
+java:S1104)"VMake lastAccess a static final constant or non-public and provide accessors if needed.(îËô¥8ûÉÁŞÏ2
+r
+java:S1104*"PMake role a static final constant or non-public and provide accessors if needed.(ûéû·ùÿÿÿÿ8ûÉÁŞÏ2
+~
+java:S1104A"\Make workingDirectory a static final constant or non-public and provide accessors if needed.(»ÀÇÜıÿÿÿÿ8üÉÁŞÏ2
+w
+java:S1104B"ZMake lastOpenFolder a static final constant or non-public and provide accessors if needed.(ÃÈçÈ8üÉÁŞÏ2
+o
+java:S1104S"RMake person a static final constant or non-public and provide accessors if needed.(ÚšÍ¹8üÉÁŞÏ2
+m
+java:S1104T"PMake user a static final constant or non-public and provide accessors if needed.(‹³¤²8üÉÁŞÏ2
+q
+java:S1104U"TMake settings a static final constant or non-public and provide accessors if needed.(éíÔ÷8üÉÁŞÏ2
+G	java:S106{"+Replace this use of System.out by a logger.(…ıĞâ8’ÊÁŞÏ2

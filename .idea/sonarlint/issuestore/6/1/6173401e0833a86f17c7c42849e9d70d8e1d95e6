@@ -1,0 +1,18 @@
+
+p
+java:S1104
+"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ8ß¤ÚßÏ2
+r
+java:S1104"PMake type a static final constant or non-public and provide accessors if needed.(…¢Óüÿÿÿÿ8ß¤ÚßÏ2
+n
+java:S1104"QMake value a static final constant or non-public and provide accessors if needed.(çªÆà8ß¤ÚßÏ2
+y
+java:S1104"WMake placeholder a static final constant or non-public and provide accessors if needed.(Þ¹ÿÿÿÿÿ8ß¤ÚßÏ2
+t
+java:S1104"WMake htmlElement a static final constant or non-public and provide accessors if needed.(ì–›È8ß¤ÚßÏ2
+}
+java:S1104 "[Make inputAttributes a static final constant or non-public and provide accessors if needed.(Ûšƒôúÿÿÿÿ8à¤ÚßÏ2
+L	java:S106("+Replace this use of System.out by a logger.(´É¨Êúÿÿÿÿ8í¤ÚßÏ2
+L	java:S1064"+Replace this use of System.out by a logger.(ŸŸ ‚ÿÿÿÿÿ8î¤ÚßÏ2
+L	java:S106;"+Replace this use of System.out by a logger.(Àõ†‘þÿÿÿÿ8ï¤ÚßÏ2
+L	java:S106>"+Replace this use of System.out by a logger.(º¦Óàÿÿÿÿÿ8ð¤ÚßÏ2
